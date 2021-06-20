@@ -1,0 +1,20 @@
+.page {
+    background-color: gray;
+}
+
+.bloc {
+    flex-direction: column;
+}
+
+.form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+}
+.button {
+    margin-bottom: auto;
+    width: 100px;
+    height: 60px;
+    border-radius: 20px;
+}
