@@ -3,7 +3,7 @@ import s from "./Home.module.css"
 
 export const Home = () => {
     return (
-        <div className={s.home}>
+        <div className={s.page}>
             <div className={s.bloc}>
                 <div className={s.greeting}>
                     <span>Hi There</span>
