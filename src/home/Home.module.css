@@ -1,0 +1,24 @@
+.home {
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bloc{
+    width: 80%;
+    height: 100%;
+    border: 1px black solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.greeting{
+    background-color: blanchedalmond;
+    width: 300px;
+}
+.photo{
+    background-color: blanchedalmond;
+    width: 300px;
+    height: 400px;
+}
