@@ -11,7 +11,9 @@ export const Projects = () => {
                 </div>
                 <div className={s.blocProjects}>
                     <div className={s.project}>
-                        <span className={s.icon}>img</span>
+                        <div className={sContainer.imgProject}>
+                            <a className={sContainer.buttonProject}> Посмотреть </a>
+                        </div>
                         <h3>SocialNetwork</h3>
                         <p>detailed description of the project</p>
                     </div>

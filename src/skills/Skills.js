@@ -4,7 +4,7 @@ import sContainer from "./../common/styles/Container.module.css"
 
 export const Skills = () => {
     return (
-        <div className={`${sContainer.page} ${s.page}`}>
+        <div className={s.page}>
             <div className={`${sContainer.bloc} ${s.bloc}`}>
                 <div className={sContainer.titlePage}>
                     <h2>My skills</h2>
@@ -20,6 +20,16 @@ export const Skills = () => {
                         <h3>HTML</h3>
                         <p>detailed description of the skill</p>
                     </div>*/}
+                    <div className={s.skill}>
+                        <span className={s.icon}>img</span>
+                        <h3>CSS</h3>
+                        <p>detailed description of the skill</p>
+                    </div>
+                    <div className={s.skill}>
+                        <span className={s.icon}>img</span>
+                        <h3>CSS</h3>
+                        <p>detailed description of the skill</p>
+                    </div>
                     <div className={s.skill}>
                         <span className={s.icon}>img</span>
                         <h3>CSS</h3>
